@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );
+}
+
+/*nav {
+    
+}*/
+nav ul {
+    border: 3px black solid;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+nav ul li {
+    padding-top: 20px;
+    background-color: paleturquoise;
+    padding-left: 184px;
+    padding-right: 180px;
+    padding-bottom: 20px;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-right: black 3px solid;
+}
+
+.display {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 4rem;
+  color: white;
+}
+
+.display h1 {
+   padding: 100px;
+}
+.display p {
+   padding: 50px;
+}
